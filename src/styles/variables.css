@@ -62,19 +62,25 @@
 	--red: oklch(0.6988 0.1864 24.41);
 	--accent: var(--green);
 	--accent-text: var(--dark-grey);
+	--danger: var(--red);
 
 	/* ==== UI Colors ==== */
-	--text-main: light-dark(var(--black), var(--white));
-	--text-secondary: light-dark(var(--dark-grey), var(--mid-white));
-	--text-tertiary: light-dark(var(--mid-grey), var(--light-grey));
+	--text-main: light-dark(var(--space-850), var(--neutral-50));
+	--text-secondary: light-dark(var(--space-750), var(--neutral-150));
+	--text-tertiary: light-dark(var(--space-600), var(--neutral-300));
 	--text-accent: light-dark(
 		oklch(from var(--green) calc(l - 0.2) c h),
 		var(--green)
 	);
-	--accent-pair-text: var(--black);
-	--bg-primary: light-dark(var(--white), var(--black));
-	--bg-secondary: light-dark(var(--off-white), var(--dark-grey));
-	--bg-tertiary: light-dark(var(--mid-white), var(--mid-grey));
+	--accent-pair-text: var(--space-850);
+	--bg-primary: light-dark(var(--neutral-50), var(--space-850));
+	--bg-secondary: light-dark(var(--neutral-150), var(--space-750));
+	--bg-tertiary: light-dark(var(--neutral-250), var(--space-650));
+
+	--border-active: light-dark(var(--space-850), var(--neutral-50));
+	--border-primary: light-dark(var(--neutral-100), var(--space-800));
+	--border-secondary: light-dark(var(--neutral-200), var(--space-700));
+	--border-tertiary: light-dark(var(--neutral-300), var(--space-600));
 
 	/* ==== Spacing ==== */
 	--space-xxs: 0.25rem;
@@ -89,6 +95,11 @@
 	--round-md: 1rem;
 	--round-lg: 2rem;
 	--round-full: 100%;
+
+	/* ==== Borders ==== */
+
+	--border-thin: 1px;
+	--border-base: 2px;
 
 	/* ==== Typography ==== */
 	--font-xs: clamp(0.7rem, 0.6rem + 0.25vw, 0.625rem);
