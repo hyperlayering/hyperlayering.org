@@ -192,7 +192,7 @@ onMount(() => {
 			top: var(--header-height);
 			width: 100%;
 			overflow: visible;
-			outline: 1px solid var(--bg-tertiary);
+			outline: var(--border-thin) solid var(--bg-tertiary);
 		}
 	}
 
@@ -245,7 +245,7 @@ onMount(() => {
 	}
 
 	.toc li {
-		border-inline-start: 2px solid var(--bg-tertiary);
+		border-inline-start: var(--border-base) solid var(--border-primary);
 		transition-property: border-color;
 		transition-duration: var(--timing-fast);
 		&.active {

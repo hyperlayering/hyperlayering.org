@@ -130,7 +130,7 @@
 	hr {
 		margin-top: var(--space-xxs);
 		margin-bottom: var(--space-xxs);
-		border: solid 0.5px var(--bg-tertiary);
+		border: solid 0.5px var(--border-secondary);
 	}
 
 	ul[role="list"],
@@ -175,7 +175,7 @@
 		}
 
 		thead {
-			border-block-end: 2px solid var(--text-tertiary);
+			border-block-end: var(--border-base) solid var(--border-tertiary);
 			font-width: var(--font-wide);
 		}
 
@@ -233,7 +233,7 @@
 		font-weight: normal;
 		color: var(--text-accent);
 		background: var(--bg-secondary);
-		border: 1px solid var(--bg-tertiary);
+		border: var(--border-thin) solid var(--border-secondary);
 		border-radius: var(--round-xs);
 	}
 }
@@ -438,12 +438,12 @@ small,
 
 .card {
 	--_card-color: var(--card-color, var(--bg-secondary));
-	--_border-color: var(--border-color, var(--bg-tertiary));
+	--_border-color: var(--border-color, var(--border-secondary));
 	height: auto;
 	padding: var(--space-sm);
 	color: var(--text-secondary);
 	background-color: var(--_card-color);
-	border: solid 1px var(--_border-color);
+	border: solid var(--border-base) var(--_border-color);
 	border-radius: var(--round-sm);
 
 	.title {
@@ -466,7 +466,7 @@ small,
 
 	.image {
 		min-width: 100%;
-		border: solid 1px oklch(from var(--_card-color) l c h);
+		border: solid var(--border-base) oklch(from var(--_card-color) l c h);
 		border-radius: var(--round-sm);
 	}
 
@@ -478,19 +478,14 @@ small,
 	&[data-state*="card--clickable"] {
 		position: relative;
 		cursor: pointer;
-		transition-property: background-color, outline;
+		transition-property: background-color, border-color;
 		transition-behavior: allow-discrete;
 		transition-duration: var(--timing-fast);
-		outline: 0px solid var(--_border-color);
 
 		&:hover,
 		&:focus-within {
-			outline: 2px solid var(--_border-color);
 			background-color: oklch(from var(--_card-color) l c h / 0.5);
-
-			@starting-style {
-				outline: 0px solid var(--_border-color);
-			}
+			border-color: var(--border-active);
 		}
 
 		a::after {

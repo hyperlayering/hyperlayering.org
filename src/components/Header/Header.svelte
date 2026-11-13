@@ -108,7 +108,7 @@ const changeLocale = (locale: typeof lang) => {
     font-size: var(--font-sm);
     color: var(--text-main);
     transition: color var(--timing-normal) ease-out;
-    border-block-end: 1px solid var(--bg-tertiary);
+    border-block-end: var(--border-base) solid var(--border-primary);
 
 
     /* TODO: refactor to button class modifier (post-launch) */
@@ -116,7 +116,7 @@ const changeLocale = (locale: typeof lang) => {
       cursor: pointer;
       padding: 0 var(--space-xs);
       border-radius: var(--round-md);
-      border: 2px solid var(--text-secondary);
+      border: var(--border-base) solid var(--border-primary);
       background-color: transparent;
       transition-property: background-color, color, box-shadow;
       transition-duration: var(--timing-fast);
@@ -179,7 +179,7 @@ const changeLocale = (locale: typeof lang) => {
     @media screen and (max-width: 98ch) {
       --_mobile-nav-width: 66vw;
       background-color: var(--bg-secondary);
-      border-left: solid 1px var(--bg-tertiary);
+      border-left: solid var(--border-base) var(--border-secondary);
       padding: var(--space-lg);
       position: absolute;
       top: 0;
