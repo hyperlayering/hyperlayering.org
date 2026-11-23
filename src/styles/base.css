@@ -439,8 +439,9 @@ small,
 .card {
 	--_card-color: var(--card-color, var(--bg-secondary));
 	--_border-color: var(--border-color, var(--border-secondary));
+	--_card-spacing: var(--card-spacing, var(--space-sm));
 	height: auto;
-	padding: var(--space-sm);
+	padding: var(--_card-spacing);
 	color: var(--text-secondary);
 	background-color: var(--_card-color);
 	border: solid var(--border-base) var(--_border-color);
@@ -502,23 +503,27 @@ small,
 		grid-row: span var(--_subgrid-row-span);
 		gap: var(--space-xxs);
 	}
+
+	&[data-spacing*="md" i] {
+		--card-spacing: var(--space-md);
+	}
 }
 
 .button {
 	--button-color: var(--bg-tertiary);
 	--text-color: var(--text-main);
 	--hover-color: oklch(from var(--button-color) l c h / 0.8);
+	--border-hover-color: var(--border-active);
 
 	background-color: var(--button-color);
 	color: var(--text-color);
 
 	/* Base button styling */
+	text-box: trim-both cap alphabetic;
 	border-radius: var(--round-lg);
-	padding: var(--space-xxs) var(--space-sm);
-	outline: 2px solid var(--text-main);
-	outline-offset: -1.5px;
+	padding: var(--space-xs) var(--space-sm);
+	border: var(--border-base) solid var(--border-contrast);
 	box-shadow: none;
-	border: 0;
 	font-weight: bold;
 	cursor: pointer;
 	min-width: fit-content;
@@ -526,15 +531,35 @@ small,
 	transition-behavior: allow-discrete;
 
 	&:hover {
-		outline-width: 3px;
 		background-color: var(--hover-color);
+		border-color: var(--border-hover-color);
 		box-shadow: 0 0 10px oklch(from var(--text-tertiary) l c h / 0.5);
+	}
+
+	&.button--large,
+	&[data-button-size*="large" i] {
+		padding: var(--space-sm) var(--space-sm);
+		font-size: var(--font-base);
 	}
 
 	&.accent,
 	&[data-state*="button--accent"] {
 		--button-color: var(--accent);
 		--text-color: var(--accent-text);
+	}
+
+	&.ghost,
+	&[data-state*="button--ghost"] {
+		--button-color: transparent;
+		--text-color: inherit;
+		outline-color: var(--border-ghost);
+
+		&:hover,
+		&:focus-within {
+			color: var(--accent-text);
+			background-color: var(--accent);
+			box-shadow: 0 0 10px oklch(from var(--text-tertiary) l c h / 0.5);
+		}
 	}
 }
 

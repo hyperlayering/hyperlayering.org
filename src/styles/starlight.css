@@ -6,14 +6,14 @@
 	--sl-color-accent-low: oklch(from var(--accent) calc(l - 0.3) c h);
 	--sl-color-accent: var(--accent);
 	--sl-color-accent-high: oklch(from var(--accent) calc(l + 0.3) c h);
-	--sl-color-white: var(--white);
-	--sl-color-gray-1: var(--off-white);
-	--sl-color-gray-2: var(--off-white);
-	--sl-color-gray-3: var(--light-grey);
-	--sl-color-gray-4: var(--light-grey);
-	--sl-color-gray-5: var(--mid-grey);
-	--sl-color-gray-6: var(--dark-grey);
-	--sl-color-black: var(--black);
+	--sl-color-white: var(--neutral-50);
+	--sl-color-gray-1: var(--neutral-150);
+	--sl-color-gray-2: var(--neutral-250);
+	--sl-color-gray-3: var(--space-450);
+	--sl-color-gray-4: var(--space-550);
+	--sl-color-gray-5: var(--space-650);
+	--sl-color-gray-6: var(--space-750);
+	--sl-color-black: var(--space-850);
 
 	--sl-font: "Archivo", "Zen Kaku Gothic New", sans-serif;
 }
@@ -22,15 +22,15 @@
 	--sl-color-accent-low: oklch(from var(--sl-color-accent) calc(l + 0.3) c h);
 	--sl-color-accent: oklch(from var(--accent) calc(l - 0.3) c h);
 	--sl-color-accent-high: oklch(from var(--sl-color-accent) calc(l - 0.3) c h);
-	--sl-color-white: var(--black);
-	--sl-color-gray-1: var(--dark-grey);
-	--sl-color-gray-2: var(--mid-grey);
-	--sl-color-gray-3: var(--light-grey);
-	--sl-color-gray-4: var(--light-grey);
-	--sl-color-gray-5: var(--off-white);
-	--sl-color-gray-6: var(--off-white);
-	--sl-color-gray-7: var(--white);
-	--sl-color-black: var(--white);
+	--sl-color-white: var(--space-850);
+	--sl-color-gray-1: var(--space-750);
+	--sl-color-gray-2: var(--space-650);
+	--sl-color-gray-3: var(--space-550);
+	--sl-color-gray-4: var(--space-450);
+	--sl-color-gray-5: var(--neutral-350);
+	--sl-color-gray-6: var(--neutral-250);
+	--sl-color-gray-7: var(--neutral-150);
+	--sl-color-black: var(--neutral-50);
 }
 
 .site-title {
