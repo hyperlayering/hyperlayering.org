@@ -72,9 +72,9 @@ const homeContent = await getCollection("home", ({ id, data }) => {
         <p class="subtitle fade-slide-in" style="--delay: 200ms;">
           {homeContent?.data.hero.subheading}
         </p>
-        <div class="fade-in" style="--delay: 600ms;">
+        <div class="fade-slide-in" style="--delay: 800ms;">
           <a href={getRelativeLocaleUrl(lang, "/layer-collections")}
-            ><button class="button accent"
+            ><button class="button accent" data-button-size="large"
               >{t("nav.layerCollections")}</button
             ></a
           >
