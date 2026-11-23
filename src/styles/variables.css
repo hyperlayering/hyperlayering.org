@@ -6,14 +6,8 @@
 	--header-height: 68px;
 
 	/* ==== Base Colors ==== */
-	--black: oklch(0.2 0.0165 255.31);
-	--dark-grey: oklch(0.25 0.0165 255.31);
-	--mid-grey: oklch(0.35 0.0165 255.31);
-	--dim-grey: oklch(0.55 0 0);
-	--light-grey: oklch(0.7 0 0);
-	--mid-white: oklch(0.85 0 0);
-	--off-white: oklch(0.95 0 0);
-	--white: oklch(0.98 0 0);
+	--white: #fff;
+	--black: #000;
 
 	--neutral-50: oklch(0.98 0 0);
 	--neutral-100: oklch(0.95 0 0);
@@ -33,7 +27,7 @@
 	--neutral-800: oklch(0.25 0 0);
 	--neutral-850: oklch(0.2 0 0);
 	--neutral-900: oklch(0.15 0 0);
-	--neutral-950: oklch(0.1 0 0);
+
 
 	--space-50: oklch(0.98 0.0165 255.31);
 	--space-100: oklch(0.95 0.0165 255.31);
@@ -53,7 +47,6 @@
 	--space-800: oklch(0.25 0.0165 255.31);
 	--space-850: oklch(0.2 0.0165 255.31);
 	--space-900: oklch(0.15 0.0165 255.31);
-	--space-950: oklch(0.1 0.0165 255.31);
 
 	--blue: oklch(0.6988 0.1864 252.372);
 	--purple: oklch(0.6988 0.1864 325.529);
@@ -80,6 +73,7 @@
 	--border-primary: light-dark(var(--neutral-100), var(--space-800));
 	--border-secondary: light-dark(var(--neutral-200), var(--space-700));
 	--border-tertiary: light-dark(var(--neutral-300), var(--space-600));
+	--border-contrast: light-dark(var(--space-700), var(--neutral-200));
 
 	/* ==== Spacing ==== */
 	--space-xxs: 0.25rem;
