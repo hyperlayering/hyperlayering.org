@@ -8,7 +8,7 @@ showToc: true
 
 ## Logo and Wordmark
 
-<a href="/assets/hlaLogos.zip" download="hlaLogo"><button class="button">Download Logo Package</button></a>
+<a href="/assets/hlaLogos.zip" download="hlaLogo"><button class="button" data-button-size="large">Download Logo Package</button></a>
 
 The "Layer H" logo is the main Identifier for HLA, along with 2 different typeface identifiers.
 
