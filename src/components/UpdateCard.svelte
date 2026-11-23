@@ -27,6 +27,7 @@ let updateLinkElement: HTMLAnchorElement | null = $state(null);
 <article
   class="post-listing card stack"
   clickable="true"
+  data-spacing="md"
   onclick={(e: MouseEvent) => {
     if (updateLinkElement && e.target !== updateLinkElement)
       updateLinkElement.click();
@@ -60,7 +61,6 @@ let updateLinkElement: HTMLAnchorElement | null = $state(null);
       text-underline-offset: var(--space-sm);
       transition-behavior: allow-discrete;
       transition:
-        color var(--timing-fast),
         text-decoration-color var(--timing-fast),
         text-underline-offset var(--timing-fast);
     }
