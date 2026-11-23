@@ -47,7 +47,7 @@ const changeLocale = (locale: typeof lang) => {
       <a class="nav-item" href={getRelativeLocaleUrl(lang, link.href)}>{link.label}</a>
     {/each}
     <a href={getRelativeLocaleUrl(lang, "/layer-collections")}>
-      <button class="launch-btn">
+      <button class="button" data-state="button--ghost">
         {t("nav.layerCollections")}
       </button>
     </a>
@@ -110,25 +110,6 @@ const changeLocale = (locale: typeof lang) => {
     transition: color var(--timing-normal) ease-out;
     border-block-end: var(--border-base) solid var(--border-primary);
 
-
-    /* TODO: refactor to button class modifier (post-launch) */
-    .launch-btn {
-      cursor: pointer;
-      padding: 0 var(--space-xs);
-      border-radius: var(--round-md);
-      border: var(--border-base) solid var(--border-primary);
-      background-color: transparent;
-      transition-property: background-color, color, box-shadow;
-      transition-duration: var(--timing-fast);
-      transition-behavior: allow-discrete;
-
-      &:hover, &:focus-within {
-        color: var(--accent-text);
-        background-color: var(--accent);
-        box-shadow: 0 0 10px oklch(from var(--text-tertiary) l c h / 0.5);
-      }        
-    }
-
     .brand {
       color: inherit;
       text-decoration: none;
@@ -171,7 +152,7 @@ const changeLocale = (locale: typeof lang) => {
         text-underline-offset var(--timing-fast);
       &:hover {
         color: var(--text-primary);
-        text-decoration: underline solid var(--accent) 2px;
+        text-decoration: underline solid var(--accent) var(--border-base);
         text-underline-offset: var(--space-xxs);
       }
     }

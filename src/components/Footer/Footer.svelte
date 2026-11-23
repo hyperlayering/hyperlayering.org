@@ -51,6 +51,7 @@ let t = $derived(useTranslations(lang));
 <style>
   .site-footer {
     background-color: var(--bg-secondary);
+    border: var(--border-base) solid var(--border-secondary);
     padding: var(--space-md);
     border-radius: var(--round-md);
 
