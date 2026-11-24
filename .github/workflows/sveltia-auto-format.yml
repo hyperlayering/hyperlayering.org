@@ -5,17 +5,30 @@ on:
 jobs:
   format:
     runs-on: ubuntu-latest
+    permissions: 
+      contents: write
+    outputs:
+      sha: ${{ steps.commit.outputs.commit_hash }}
     steps:
       - uses: actions/checkout@v5
         with:
-          ref: ${{ github.head_ref }}
+          ref: ${{ github.event.repository.default_branch }}
       - uses: actions/setup-node@v7
         with:
           node-version: "22.x"
       - run: npm ci
       - run: npm run format
       - name: Commit changes
+        id: commit
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: Apply formatting changes
-          branch: ${{ github.head_ref }}
+          branch: ${{ github.event.repository.default_branch }}
+
+  lint:
+    needs: format
+    permissions:
+      contents: read
+    uses: ./.github/workflows/biome-lint.yml
+    with:
+      ref: ${{ needs.format.outputs.sha || github.event.repository.default_branch }}
