@@ -28,5 +28,4 @@ Hyper-Layeringが目指しているのは、地図データだけでなく、地
 今回のキーノートでは、こうした考え方を **“What if the Map itself became the Web?”** という問いに込めて、OSMコミュニティの皆さんと共有しました。私たちにとっても、Hyper-Layeringのこれからを考える良い機会になりました。
 
 講演のスライドとデモを公開しています。講演で紹介した内容や実際の動作に興味を持っていただけた方は、ぜひご覧ください。
-
 - **Slides and Demo:** [SotM Asia 2026 — What if the Map itself became the Web?](https://hyperlayering.github.io/presentations/SOTMasia2026/)
