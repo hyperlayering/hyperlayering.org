@@ -3,6 +3,7 @@ backend:
   name: github
   repo: hyperlayering/hyperlayering.org
   branch: main
+  skip_ci: true
   base_url: https://sveltia-cms-auth.hla-201.workers.dev
   auth: [oauth]
   site_url: https://hyperlayering.org/
