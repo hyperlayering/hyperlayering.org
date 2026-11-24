@@ -1,7 +1,5 @@
 name: Sveltia Auto Format
 on:
-  push:
-    branches: [main]
   repository_dispatch:
     types: [sveltia-cms-publish]
 jobs:
