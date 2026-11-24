@@ -10,6 +10,7 @@ on:
 
 jobs:
   quality:
+    if: github.event_name != 'push' || !contains(github.event.head_commit.message, 'sveltia-cms-publish')
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -20,7 +21,5 @@ jobs:
           persist-credentials: false
       - name: Setup Biome
         uses: biomejs/setup-biome@v2
-        with:
-          version: "2.6.2"
       - name: Run Biome
         run: biome ci .
