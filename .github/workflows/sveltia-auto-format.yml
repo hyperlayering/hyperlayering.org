@@ -5,7 +5,7 @@ on:
 jobs:
   format:
     runs-on: ubuntu-latest
-    permissions: 
+    permissions:
       contents: write
     outputs:
       sha: ${{ steps.commit.outputs.commit_hash }}
