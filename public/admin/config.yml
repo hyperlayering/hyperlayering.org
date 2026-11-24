@@ -3,6 +3,7 @@ backend:
   name: github
   repo: hyperlayering/hyperlayering.org
   branch: main
+  skip_ci: true
   base_url: https://sveltia-cms-auth.hla-201.workers.dev
   auth: [oauth]
   site_url: https://hyperlayering.org/
@@ -310,3 +311,16 @@ collections:
                       - '^(?:https?:\/\/[^\s\/?#]+[^\s]*|\/(?!\/)[^\s]*)$'
                       - 'Must be an http(s) URL or a local path starting with a single "/"'
                     i18n: duplicate
+
+
+output:
+  omit_empty_optional_fields: false
+  encode_file_path: false 
+  json:
+    indent_style: tab
+    indent_size: 1
+  yaml:
+    quote: none
+    indent_size: 2
+    indent_sequences: true
+    block_quote: true
