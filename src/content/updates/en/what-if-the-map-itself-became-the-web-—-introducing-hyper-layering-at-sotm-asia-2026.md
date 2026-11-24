@@ -2,7 +2,7 @@
 title: What if the Map itself became the Web? — Introducing Hyper Layering at SotM Asia 2026
 author: satoru-takagi
 date: 2026-11-24
-description: 'Introducing Hyper Layering at the SotM Asia 2026 keynote, and exploring what comes after OpenStreetMap: using the entire Web as material for creating maps.'
+description: "Introducing Hyper Layering at the SotM Asia 2026 keynote, and exploring what comes after OpenStreetMap: using the entire Web as material for creating maps."
 # Use Table of Contents for long posts only.
 showToc: false
 ---
@@ -28,5 +28,4 @@ Hyper Layering aims to make it possible to combine not only map data, but also t
 In this keynote, I shared this idea with the OpenStreetMap community through the question, **“What if the Map itself became the Web?”** It was also a valuable opportunity for us to reflect on the future direction of Hyper Layering.
 
 The slides and demo are available online. If you are interested in the topics covered in the talk or would like to see the demonstrations, please take a look. **The video also includes Japanese captions.**
-
 - **Slides and Demo:** [SotM Asia 2026 — What if the Map itself became the Web?](https://hyperlayering.github.io/presentations/SOTMasia2026/)
