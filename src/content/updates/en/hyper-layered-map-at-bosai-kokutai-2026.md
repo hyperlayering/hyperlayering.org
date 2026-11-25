@@ -1,5 +1,5 @@
 ---
-title: Hyper Layered Map at Bosai Kokutai 2026
+title: Connecting Distributed Disaster Information — A Report from BOSAI Kokutai 2026
 author: kentaro-taninaka
 date: 2026-11-25
 description: ぼうさいこくたいの紹介
@@ -7,51 +7,51 @@ description: ぼうさいこくたいの紹介
 showToc: false
 ---
 
-On October 17–18, 2026, we participated in Bosai Kokutai 2026 (National Convention for the Promotion of Disaster Risk Reduction), held in Kurayoshi, Tottori Prefecture, Japan, where we presented our work on HLMap.
+On October 17–18, 2026, we participated in **BOSAI Kokutai 2026 (National Conference on Promoting Disaster Risk Reduction)** in Kurayoshi, Tottori Prefecture, Japan.
 
-Bosai Kokutai is one of Japan’s largest disaster risk reduction events, bringing together government agencies, companies, research institutions, and civil society organizations from across the country to share their initiatives, technologies, and knowledge.
+BOSAI Kokutai is one of Japan’s largest disaster risk reduction events.
+It brings together government agencies, companies, research institutions, and civil society organizations from across the country to share their initiatives, technologies, and knowledge.
 
-Through our poster exhibition and session, we introduced the new direction of HLMap, its real-world applications in disaster risk reduction, and its future possibilities.
+For us, this event marked our first public presentation since changing the name from SVGMap to Hyper Layered Map (HLMap).
+With our new logo and official website, we presented our activities under the new HLMap identity.
 
-## From SVGMap to HLMap
-
-Bosai Kokutai 2026 marked our first public presentation since changing the name from SVGMap to HLMap.
-
-Along with our newly designed logo and official website, we looked back at our previous work and introduced the new direction of HLMap.
-
-As part of this transition, we presented our vision of extending the existing map technology beyond maps themselves, through its underlying Hyper Layering Architecture (HLA), toward a platform for layering diverse Web resources.
-
-With our new name and visual identity, we shared both the development of HLMap to date and the direction we aim to pursue in the future.
+Our poster exhibition featured practical applications of HLMap across different fields.
+We also held a session with experts from various backgrounds to discuss the future of HLMap in disaster risk reduction.
 
 ## Expanding Applications of HLMap in Disaster Risk Reduction
 
-Our poster exhibition also featured concrete examples of how HLMap is being used.
+Our poster exhibition featured a range of HLMap applications developed by universities, local governments, and companies.
 
-The initiatives led by Okayama University and the Okayama Prefecture Advanced Information Technology Promotion Council showcased how local governments and regional companies are working together to visualize and share various types of disaster-related information, including river water levels, landslide risks, local disaster prevention facilities, and mobile temporary housing.
-
+Okayama University and the Okayama Prefecture Advanced Information Technology Promotion Council are working with local governments and regional companies to visualize and share disaster-related information.
+Examples include river water levels, landslide risks, local disaster prevention facilities, and mobile temporary housing.
 By connecting information from different organizations, these initiatives aim to support regional disaster response and mutual assistance within communities.
 
-The Takashio Laboratory at Keio University also presented its research on a regional information-sharing platform that combines HLMap with Augmented Reality (AR).
+The Sociable Robots Lab at Keio University is conducting research on a regional information-sharing platform that combines HLMap with Augmented Reality (AR).
+Information associated with physical locations is shared as HLMap layers.
+These layers can be accessed through both 2D maps and 3D/AR environments.
+The research aims to support various applications, from everyday community information sharing to damage assessment during disasters.
 
-The platform enables information associated with physical spaces to be shared as HLMap layers and accessed through both 2D maps and 3D/AR environments.
-
-The research aims to support a wide range of applications, from everyday community information sharing to assessing damage in the aftermath of disasters.
-
-Other examples included KDDI Corporation’s disaster response map board and disaster recovery support, the use of HLMap in disaster response exercises by the AZ-COM Maruwa Group, and initiatives toward the international expansion of HLMap.
+We also showcased KDDI Corporation’s disaster response map board and disaster recovery initiatives, as well as the use of HLMap in disaster response exercises by the AZ-COM MARUWA Group.
+In addition, we introduced ongoing efforts to expand the use of HLMap internationally.
 
 ## Discussing the Present and Future of HLMap
 
-On October 18, WebDINO Japan, in collaboration with the Hyper Layering Community, hosted a session titled “Connecting Distributed Disaster Information for Resilient Infrastructure: HLMap for Everyday Life and Disaster Response.”
+On October 18, WebDINO Japan hosted a session in collaboration with the Hyper Layering Community.
+The session was titled **“Connecting Distributed Disaster Information for Resilient Infrastructure: HLMap for Everyday Life and Disaster Response.”**
 
-The session featured five speakers: Satoko Takita (WebDINO Japan), Satoru Takagi (KDDI Corporation), Yasuyuki Nogami (Okayama University), Taichi Furuhashi (Aoyama Gakuin University), and Kentaro Taninaka (Keio University).
+Satoko Takita (WebDINO Japan) served as the moderator.
+The session featured five speakers: Satoru Takagi (KDDI Corporation), Yasuyuki Nogami (Okayama University), Taichi Furuhashi (Aoyama Gakuin University), and Kentaro Taninaka (Keio University).
 
-From the design principles of information infrastructure and its real-world implementation to the use of open geospatial information and integration with emerging technologies, the session provided an opportunity to explore the present and future of HLMap from a range of perspectives.
+Each speaker shared their work and insights from their respective fields.
+The presentations covered the design principles of information infrastructure, real-world applications in local communities, the use of open geospatial information, and integration with AR technology.
 
-Building on previous developments and practical applications, we discussed how information environments can bridge everyday life and disaster response, and how HLMap could serve as an information infrastructure supporting mutual assistance within local communities.
+Building on these developments and practical experiences, we discussed the future of HLMap.
+We explored how information used in everyday life could also be used during disasters.
+We also discussed the potential of HLMap as an information infrastructure that supports mutual assistance within local communities.
 
-**The presentation materials and session recording are available online.** 
+**The presentation materials and session recording are available online.**
 **If you are interested in the topics covered during the session, please take a look.**
 
-- [Bosai Kokutai 2026 — Official Session Page](https://bosai-kokutai.jp/2026/s-54/)
+- [BOSAI Kokutai 2026 — Official Session Page](https://bosai-kokutai.jp/2026/s-54/)
 - [Session Recording (YouTube)](https://www.youtube.com/watch?v=k2mmZwK5fRw)
-- [Bosai Kokutai 2026 — Presentation Materials](https://hyperlayering.github.io/presentations/bosaiKokutai2026/)
+- [BOSAI Kokutai 2026 — Presentation Materials](https://hyperlayering.github.io/presentations/bosaiKokutai2026/)
