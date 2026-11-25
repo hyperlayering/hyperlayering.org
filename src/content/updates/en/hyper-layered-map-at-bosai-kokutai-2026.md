@@ -39,8 +39,7 @@ In addition, we introduced ongoing efforts to expand the use of HLMap internatio
 On October 18, WebDINO Japan hosted a session in collaboration with the Hyper Layering Community.
 The session was titled **“Connecting Distributed Disaster Information for Resilient Infrastructure: HLMap for Everyday Life and Disaster Response.”**
 
-Satoko Takita (WebDINO Japan) served as the moderator.
-The session featured five speakers: Satoru Takagi (KDDI Corporation), Yasuyuki Nogami (Okayama University), Taichi Furuhashi (Aoyama Gakuin University), and Kentaro Taninaka (Keio University).
+The session featured five speakers: Satoko Takita (WebDINO Japan), Satoru Takagi (KDDI Corporation), Yasuyuki Nogami (Okayama University), Taichi Furuhashi (Aoyama Gakuin University), and Kentaro Taninaka (Keio University).
 
 Each speaker shared their work and insights from their respective fields.
 The presentations covered the design principles of information infrastructure, real-world applications in local communities, the use of open geospatial information, and integration with AR technology.
