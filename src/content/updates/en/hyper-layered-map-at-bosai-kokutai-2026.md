@@ -51,5 +51,4 @@ The session provided an opportunity to explore the role and future potential of 
 **If you are interested in the topics covered during the session, please take a look.**
 
 - [BOSAI Kokutai 2026 — Official Session Page](https://bosai-kokutai.jp/2026/s-54/)
-- [Session Recording (YouTube)](https://www.youtube.com/watch?v=k2mmZwK5fRw)
 - [BOSAI Kokutai 2026 — Presentation Materials](https://hyperlayering.github.io/presentations/bosaiKokutai2026/)
