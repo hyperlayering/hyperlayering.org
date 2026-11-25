@@ -49,7 +49,8 @@ The speakers looked back at the development of HLMap and its applications, while
 
 Key themes included the concept of Phase Free, which aims to make information used in everyday life equally useful during disasters, and the development of autonomous, decentralized, and collaborative information infrastructure that enables different organizations and systems to connect their information while retaining their independence.
 
-**The presentation materials and session recording are available online. If you are interested in the topics covered during the session, please take a look.**
+**The presentation materials and session recording are available online.** 
+**If you are interested in the topics covered during the session, please take a look.**
 
 - [Bosai Kokutai 2026 — Official Session Page](https://bosai-kokutai.jp/2026/s-54/)
 - [Session Recording (YouTube)](https://www.youtube.com/watch?v=k2mmZwK5fRw)
