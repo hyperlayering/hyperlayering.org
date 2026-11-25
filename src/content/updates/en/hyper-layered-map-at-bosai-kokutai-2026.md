@@ -44,9 +44,8 @@ The session featured five speakers: Satoko Takita (WebDINO Japan), Satoru Takagi
 Each speaker shared their work and insights from their respective fields.
 The presentations covered the design principles of information infrastructure, real-world applications in local communities, the use of open geospatial information, and integration with AR technology.
 
-Building on these developments and practical experiences, we discussed the future of HLMap.
-We explored how information used in everyday life could also be used during disasters.
-We also discussed the potential of HLMap as an information infrastructure that supports mutual assistance within local communities.
+Rather than simply building separate systems for disaster response, how can we connect existing information, services, and community activities so that they remain useful during disasters?
+The session provided an opportunity to explore the role and future potential of HLMap from both technical and societal perspectives.
 
 **The presentation materials and session recording are available online.**
 **If you are interested in the topics covered during the session, please take a look.**
