@@ -47,6 +47,10 @@ The presentations covered the design principles of information infrastructure, r
 Rather than simply building separate systems for disaster response, how can we connect existing information, services, and community activities so that they remain useful during disasters?
 The session provided an opportunity to explore the role and future potential of HLMap from both technical and societal perspectives.
 
+
+
+![](/assets/updates/hyper-layered-map-at-bosai-kokutai-2026/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2026-11-25-173427.webp)
+
 **The presentation materials and session recording are available online.**
 **If you are interested in the topics covered during the session, please take a look.**
 
