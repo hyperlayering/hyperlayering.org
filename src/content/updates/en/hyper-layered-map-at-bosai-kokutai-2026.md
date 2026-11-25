@@ -45,9 +45,9 @@ On October 18, WebDINO Japan, in collaboration with the Hyper Layering Community
 
 The session featured five speakers: Satoko Takita (WebDINO Japan), Satoru Takagi (KDDI Corporation), Yasuyuki Nogami (Okayama University), Taichi Furuhashi (Aoyama Gakuin University), and Kentaro Taninaka (Keio University).
 
-The speakers looked back at the development of HLMap and its applications, while discussing future technical developments and opportunities in disaster risk reduction from their respective areas of expertise.
+From the design principles of information infrastructure and its real-world implementation to the use of open geospatial information and integration with emerging technologies, the session provided an opportunity to explore the present and future of HLMap from a range of perspectives.
 
-Key themes included the concept of Phase Free, which aims to make information used in everyday life equally useful during disasters, and the development of autonomous, decentralized, and collaborative information infrastructure that enables different organizations and systems to connect their information while retaining their independence.
+Building on previous developments and practical applications, we discussed how information environments can bridge everyday life and disaster response, and how HLMap could serve as an information infrastructure supporting mutual assistance within local communities.
 
 **The presentation materials and session recording are available online.** 
 **If you are interested in the topics covered during the session, please take a look.**
