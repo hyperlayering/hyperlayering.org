@@ -80,13 +80,13 @@ const layerCollections = defineCollection({
 		pattern: "**/layerCollections.json",
 		base: "./src/content/pages",
 	}),
-	schema: z.object({
+	schema: ({ image }) => z.object({
 		header: z.string(),
 		layerCollections: z.array(
 			z.object({
 				label: z.string(),
 				url: urlOrPath,
-				image: urlOrPath,
+				image: image(),
 			}),
 		),
 	}),

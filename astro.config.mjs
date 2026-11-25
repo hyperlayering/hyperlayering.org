@@ -39,6 +39,10 @@ export default defineConfig({
 		},
 	},
 
+	image: {
+    	domains: ["hyperlayering.org"],
+  	},
+
 	markdown: {
 		processor: satteri({
 			hastPlugins: [
