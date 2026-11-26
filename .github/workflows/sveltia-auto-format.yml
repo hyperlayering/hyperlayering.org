@@ -2,6 +2,9 @@ name: Sveltia Auto Format
 on:
   repository_dispatch:
     types: [sveltia-cms-publish]
+concurrency:
+  group: sveltia-publish
+  cancel-in-progress: false
 jobs:
   format:
     runs-on: ubuntu-latest
@@ -32,3 +35,15 @@ jobs:
     uses: ./.github/workflows/biome-lint.yml
     with:
       ref: ${{ needs.format.outputs.sha || github.event.repository.default_branch }}
+
+  deploy:
+    needs: [format, lint]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Cloudflare Worker Deploy Hook
+        env:
+          DEPLOY_HOOK: ${{ secrets.CF_BUILD_HOOK_URL }}
+        run: |
+          curl --fail-with-body --silent --show-error \
+            --retry 3 --retry-delay 5 --max-time 30 \
+            -X POST "$DEPLOY_HOOK"
