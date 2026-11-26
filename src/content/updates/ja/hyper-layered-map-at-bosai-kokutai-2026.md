@@ -48,6 +48,5 @@ WebDINO Japanの瀧田佐登子氏、KDDI株式会社の高木悟氏、岡山大
 
 **セッションの発表資料とアーカイブ動画も公開されています。**
 **当日の発表にご関心のある方は、ぜひご覧ください。**
-
 - [ぼうさいこくたい2026 セッション公式ページ](https://bosai-kokutai.jp/2026/s-54/)
 - [ぼうさいこくたい2026資料集](https://hyperlayering.github.io/presentations/bosaiKokutai2026/)
