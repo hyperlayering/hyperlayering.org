@@ -2,7 +2,7 @@
 title: Connecting Distributed Disaster Information — A Report from BOSAI Kokutai 2026
 author: kentaro-taninaka
 date: 2026-11-25
-description: About BOSAI Kokutai 2026
+description: At BOSAI Kokutai 2026, we showcased HLMap applications and discussed its future potential in disaster risk reduction
 # Use Table of Contents for long posts only.
 showToc: false
 ---

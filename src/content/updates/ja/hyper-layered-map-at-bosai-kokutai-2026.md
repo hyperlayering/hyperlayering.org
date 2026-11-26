@@ -2,7 +2,7 @@
 title: 分散した防災情報をつなぐ — ぼうさいこくたい2026レポート
 author: kentaro-taninaka
 date: 2026-11-25
-description: ぼうさいこくたいの紹介
+description: ぼうさいこくたい2026に参加し、HLMapの防災分野における活用事例の紹介と、今後の可能性についての議論を行った。
 # Use Table of Contents for long posts only.
 showToc: false
 ---
