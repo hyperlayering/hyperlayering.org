@@ -17,12 +17,12 @@
 		"format": "biome format --write"
 	},
 	"dependencies": {
-		"@astrojs/cloudflare": "^14.4.3",
-		"@astrojs/sitemap": "^3.7.4",
-		"@astrojs/starlight": "^0.42.8",
-		"@astrojs/svelte": "^9.1.2",
-		"astro": "^7.4.4",
-		"svelte": "^5.56.3",
+		"@astrojs/cloudflare": "^14.4.9",
+		"@astrojs/sitemap": "^3.7.6",
+		"@astrojs/starlight": "^0.43.2",
+		"@astrojs/svelte": "^9.1.6",
+		"astro": "^7.4.13",
+		"svelte": "^5.59.2",
 		"typescript": "^6.0.3"
 	},
 	"devDependencies": {
@@ -33,6 +33,6 @@
 		"esbuild": "^0.28.2",
 		"jsdom": "^28.1.0",
 		"vitest": "^4.1.9",
-		"wrangler": "^4.107.0"
+		"wrangler": "^4.169.0"
 	}
 }
