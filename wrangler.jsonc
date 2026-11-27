@@ -1,6 +1,8 @@
 {
 	"name": "hyperlayering-org",
-	"compatibility_flags": ["nodejs_compat"],
+	"compatibility_flags": [
+		"nodejs_compat"
+	],
 	"compatibility_date": "2026-07-05",
 	"assets": {
 		"directory": "./dist",
@@ -20,5 +22,11 @@
 			"persist": true,
 			"head_sampling_rate": 1
 		}
-	}
+	},
+	"kv_namespaces": [
+		{
+			"binding": "SESSION",
+			"id": "5918efc69b9944b8bbff45013ad9f025"
+		}
+	]
 }
