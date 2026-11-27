@@ -1,7 +1,7 @@
 ---
 title: 分散した防災情報をつなぐ — ぼうさいこくたい2026レポート
 author: kentaro-taninaka
-date: 2026-11-25
+date: 2026-11-27
 description: ぼうさいこくたい2026に参加し、HLMapの防災分野における活用事例の紹介と、今後の可能性についての議論を行った。
 # Use Table of Contents for long posts only.
 showToc: false
@@ -32,6 +32,9 @@ showToc: false
 このほかにも、KDDI株式会社による防災マップボードや災害復旧支援、AZ-COM丸和グループの災害対策訓練におけるHLMapの活用を紹介しました。
 さらに、HLMapの国際展開に向けた取り組みについても紹介しました。
 
+![](/assets/updates/hyper-layered-map-at-bosai-kokutai-2026/bosaikokutai2026_dinobooth.webp)
+
+
 ## HLMapの現在と未来を語る
 
 10 月 18 日（日）には、一般社団法人WebDINO Japan主催、Hyper Layering Community協力のもと、**「分散した防災情報をつなぎ、止まらないインフラを！ ～平時と災害時をつなぐHLMap～」** と題したセッションを開催しました。
@@ -44,9 +47,10 @@ WebDINO Japanの瀧田佐登子氏、KDDI株式会社の高木悟氏、岡山大
 防災のための独立したシステムを新たに構築するだけでなく、既存の情報やサービス、地域の活動をどのようにつなぎ、災害時にも活用できる環境を実現するか。
 技術と社会の両面から、HLMapが果たす役割と今後の可能性を考えるセッションとなりました。
 
-![](/assets/updates/hyper-layered-map-at-bosai-kokutai-2026/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2026-11-25-173427.webp)
+![](/assets/updates/hyper-layered-map-at-bosai-kokutai-2026/dscf5241.webp)
 
 **セッションの発表資料とアーカイブ動画も公開されています。**
 **当日の発表にご関心のある方は、ぜひご覧ください。**
+
 - [ぼうさいこくたい2026 セッション公式ページ](https://bosai-kokutai.jp/2026/s-54/)
 - [ぼうさいこくたい2026資料集](https://hyperlayering.github.io/presentations/bosaiKokutai2026/)

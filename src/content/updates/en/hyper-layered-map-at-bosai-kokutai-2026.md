@@ -1,7 +1,7 @@
 ---
 title: Connecting Distributed Disaster Information — A Report from BOSAI Kokutai 2026
 author: kentaro-taninaka
-date: 2026-11-25
+date: 2026-11-27
 description: At BOSAI Kokutai 2026, we showcased HLMap applications and discussed its future potential in disaster risk reduction
 # Use Table of Contents for long posts only.
 showToc: false
@@ -25,6 +25,9 @@ The Sociable Robots Lab at Keio University is conducting research on a regional 
 
 We also showcased KDDI Corporation’s disaster response map board and disaster recovery initiatives, as well as the use of HLMap in disaster response exercises by the AZ-COM MARUWA Group. In addition, we introduced ongoing efforts to expand the use of HLMap internationally.
 
+![](/assets/updates/hyper-layered-map-at-bosai-kokutai-2026/bosaikokutai2026_dinobooth.webp)
+
+
 ## Discussing the Present and Future of HLMap
 
 On October 18, WebDINO Japan hosted a session in collaboration with the Hyper Layering Community. The session was titled **“Connecting Distributed Disaster Information for Resilient Infrastructure: HLMap for Everyday Life and Disaster Response.”**
@@ -35,9 +38,10 @@ Each speaker shared their work and insights from their respective fields. The pr
 
 Rather than simply building separate systems for disaster response, how can we connect existing information, services, and community activities so that they remain useful during disasters? The session provided an opportunity to explore the role and future potential of HLMap from both technical and societal perspectives.
 
-![](/assets/updates/hyper-layered-map-at-bosai-kokutai-2026/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2026-11-25-173427.webp)
+![](/assets/updates/hyper-layered-map-at-bosai-kokutai-2026/dscf5241.webp)
 
 **The presentation materials and session recording are available online.**
 **If you are interested in the topics covered during the session, please take a look.**
+
 - [BOSAI Kokutai 2026 — Official Session Page](https://bosai-kokutai.jp/2026/s-54/)
 - [BOSAI Kokutai 2026 — Presentation Materials](https://hyperlayering.github.io/presentations/bosaiKokutai2026/)
