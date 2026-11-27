@@ -42,6 +42,5 @@ Rather than simply building separate systems for disaster response, how can we c
 
 **The presentation materials and session recording are available online.**
 **If you are interested in the topics covered during the session, please take a look.**
-
 - [BOSAI Kokutai 2026 — Official Session Page](https://bosai-kokutai.jp/2026/s-54/)
 - [BOSAI Kokutai 2026 — Presentation Materials](https://hyperlayering.github.io/presentations/bosaiKokutai2026/)
